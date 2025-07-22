@@ -1,0 +1,64 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Adhoc
+X-WR-TIMEZONE:Europe/Prague
+BEGIN:VTIMEZONE
+TZID:Europe/Belgrade
+X-LIC-LOCATION:Europe/Belgrade
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:GMT+2
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:GMT+1
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+DTSTART;TZID=Europe/Belgrade:20250807T100000
+DTEND;TZID=Europe/Belgrade:20250807T110000
+RRULE:FREQ=MONTHLY;BYDAY=1TH
+DTSTAMP:20250722T144051Z
+CREATED:20250722T143945Z
+DESCRIPTION:\n\nSubject: New Python C API Call\nWhen: Occurs every month on
+  the first Thursday of the month from 10:00 AM to 11:00 AM effective 8/7/20
+ 25.\nWhere: https://oracle.zoom.us/j/4978959520?pwd=VC8rL1g3Z0dPNEVTM3dPZTN
+ HNTByQT09&omn=92169464755&from=addon\n\n\n\n[https://st2.zoom.us/static/6.3
+ .39530/image/new/ZoomLogo_110_25.png] <https://zoom.com>\nHi there\,\nStepa
+ n Sindelar is inviting you to a scheduled Zoom meeting.\nJoin Zoom Meeting<
+ https://oracle.zoom.us/j/4978959520?pwd=VC8rL1g3Z0dPNEVTM3dPZTNHNTByQT09&om
+ n=92169464755&from=addon>\nOne tap mobile:\nUS: +16465588656\,\,4978959520#
+ \,\,\,\,*560741#<tel:+16465588656\,\,4978959520#\,\,\,\,*560741#> or +13017
+ 158592\,\,4978959520#\,\,\,\,*560741#<tel:+13017158592\,\,4978959520#\,\,\,
+ \,*560741#>\nMeeting URL:\nhttps://oracle.zoom.us/j/4978959520?pwd=VC8rL1g3
+ Z0dPNEVTM3dPZTNHNTByQT09&omn=92169464755&from=addon\nMeeting ID:\n497 895 9
+ 520\nPasscode:\n)\nJoin by Telephone\nFor higher quality\, dial a number ba
+ sed on your current location.\nDial:\n+1 646 558 8656 US (New York)\n+1 301
+  715 8592 US (Washington DC)\n+1 312 626 6799 US (Chicago)\n+1 253 215 8782
+  US (Tacoma)\n+1 346 248 7799 US (Houston)\n+1 669 900 6833 US (San Jose)\n
+ +1 720 928 9299 US (Denver)\n+1 206 337 9723 US (Seattle)\n+1 213 338 8477 
+ US (Los Angeles)\nMeeting ID:\n497 895 9520\nPasscode:\n560741\nInternation
+ al numbers<https://oracle.zoom.us/u/ablsUysGwx>\nJoin from an H.323/SIP roo
+ m system\nH.323:\n144.195.19.161 (US West)\n206.247.11.121 (US East)\n115.1
+ 14.131.7 (India Mumbai)\n115.114.115.7 (India Hyderabad)\n159.124.15.191 (A
+ msterdam Netherlands)\n159.124.47.249 (Germany)\n159.124.104.213 (Australia
+  Sydney)\n159.124.74.212 (Australia Melbourne)\n170.114.180.219 (Singapore)
+ \n64.211.144.160 (Brazil)\n159.124.132.243 (Mexico)\n159.124.168.213 (Canad
+ a Toronto)\n159.124.196.25 (Canada Vancouver)\n170.114.194.163 (Japan Tokyo
+ )\n147.124.100.25 (Japan Osaka)\nMeeting ID:\n497 895 9520\nPasscode:\n5607
+ 41\nSIP:\n4978959520@zoomcrc.com\nPasscode:\n560741
+LOCATION:https://oracle.zoom.us/j/4978959520?pwd=VC8rL1g3Z0dPNEVTM3dPZTNHNT
+ ByQT09&omn=92169464755&from=addon
+SEQUENCE:0
+SUMMARY:FW: New Python C API Call
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR
